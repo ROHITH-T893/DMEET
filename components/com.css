@@ -1,0 +1,27 @@
+#isJoiningMeeting,#isScheduleMeeting,#isInstantMeeting{
+    top: 100px;
+    left: 100px;
+    transform: translate(50%,50%);
+    border-radius: 10px;
+}
+
+
+@media screen and (width<680px) {
+#isJoiningMeeting{
+  top: 100px;
+  left: 5px;
+  transform: translate(0,0);
+
+}
+#isScheduleMeeting{
+    top: 100px;
+    left: 5px;
+    transform: translate(0,0);;
+}
+#isInstantMeeting{
+    top: 100px;
+    left: 5px;
+    transform: translate(0,0);
+}
+
+}
